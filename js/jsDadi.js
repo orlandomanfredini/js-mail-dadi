@@ -19,23 +19,24 @@ buttonStart.addEventListener('click', function(){
 
     if (dado1 > dado2){
         winner.innerHTML = 'Player 1'
-        player.classList.add('text-success')
-        computer.classList.add('text-danger')
+        
     }else if (dado1 === dado2){
         winner.innerHTML = 'Pareggio'
-        player.classList.add('text-warning')
-        computer.classList.add('text-warning')
+        
         
     }else{
         winner.innerHTML = 'Computer'
-        player.classList.add('text-danger')
-        computer.classList.add('text-success')
+        
     }
 
     winner.classList.add('text-center')
 
-        
 
+
+    const playerWinner = dado1 > dado2;
+
+
+    
 
 })
 

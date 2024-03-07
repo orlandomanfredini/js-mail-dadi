@@ -21,15 +21,22 @@ const buttonCheck = document.getElementById('check-button');
     
     // per poi eseguire la verifica con il ciclo
     for(let i = 0; i <= listAccess.length; i ++ ){
+        console.log(listAccess[i])
         
         //SE mail coincide stampo email corretta
-        if (emailUser.value === listAccess[0], listAccess[1], listAccess[2], listAccess[3]){
-            esitEmail.innerHTML = 'Email corretta';
-
+        if(listAccess.includes(emailUser.value)){
+            esitEmail.innerHTML = 'Email corretta'
+        }else{
+            esitEmail.innerHTML = 'Email non trovata'
         }
-        
+         
         // ALTRIMWENTI stampo mail non coincide  
-        esitEmail.innerHTML = 'Email errata';
+          
+        
+
+        
+        
+        
     
     }
 
