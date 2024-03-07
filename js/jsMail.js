@@ -23,12 +23,14 @@ const buttonCheck = document.getElementById('check-button');
     for(let i = 0; i <= listAccess.length; i ++ ){
         
         
-        if (emailUser.value === listAccess[i]){
+        if (emailUser.value === listAccess[0], listAccess[1], listAccess[2], listAccess[3]){
             esitEmail.innerHTML = 'Email corretta';
 
-        }else{
-            esitEmail.innerHTML = 'Email errata';
         }
+            
+        
+        esitEmail.innerHTML = 'Email errata';
+    
 
         
 
