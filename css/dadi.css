@@ -1,0 +1,12 @@
+
+.button-start{
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+}
+
+.card-number.card{
+    height: 100px;
+}
