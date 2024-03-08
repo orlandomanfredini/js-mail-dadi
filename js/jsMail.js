@@ -21,7 +21,7 @@ const buttonCheck = document.getElementById('check-button');
     
     // per poi eseguire la verifica con il ciclo
     for(let i = 0; i <= listAccess.length; i ++ ){
-        console.log(listAccess[i])
+        
         
         //SE mail coincide stampo email corretta
         if(listAccess.includes(emailUser.value)){
